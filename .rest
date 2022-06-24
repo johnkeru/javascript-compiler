@@ -1,0 +1,13 @@
+POST http://localhost:5000/codeJS
+Content-Type: application/json
+
+{
+  "code": "function add(a, b) { return a + b; } console.log(add(1, 532));"
+}
+###
+POST https://jscompiler-js.herokuapp.com/codeJS
+Content-Type: application/json
+
+{
+  "code": "function add(a, b) { return a + b; } console.log(add(1, 2));"
+}
